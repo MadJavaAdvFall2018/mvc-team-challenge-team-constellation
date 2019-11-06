@@ -29,17 +29,14 @@ public class ConstellationBean extends Object {
      *@return    The mySpecialData value
      */
     public String getName() {
-
         return this.name;
     }
 
     public String getImageName() {
-
         return this.imageName;
     }
 
     public int getDiscoveryDate() {
-
         return this.discoveryDate;
     }
 
@@ -54,8 +51,18 @@ public class ConstellationBean extends Object {
      *@param  mySpecialData  The new mySpecialData value
      */
     public void setName(String name) {
-
         this.name = name;
     }
 
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
+    }
+
+    public void setDiscoveryDate(int discoveryDate) {
+        this.discoveryDate = discoveryDate;
+    }
+
+    public void setNumberOfStars(int numberOfStars) {
+        this.numberOfStars = numberOfStars;
+    }
 }
