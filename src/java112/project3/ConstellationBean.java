@@ -1,9 +1,9 @@
 package java112.project3;
 
 /**
- *  This is a JavaBean to demonstrate using beans with JSP.
+ *  This is a JavaBean that represents each constellation.
  *
- *@author    eknapp
+ *@author   bscholze
  */
 public class ConstellationBean extends Object {
 
@@ -11,23 +11,13 @@ public class ConstellationBean extends Object {
     private String imageName;
     private int discoveryDate;
     private int numberOfStars;
-
-
-
-
     /**
-     *  Constructor for the BeanOne object
+     *  Constructor for the Constellation object
      */
     public ConstellationBean() {
 
     }
-
-
-    /**
-     *  Gets the mySpecialData attribute of the BeanOne object
-     *
-     *@return    The mySpecialData value
-     */
+    //getters
     public String getName() {
         return this.name;
     }
@@ -44,12 +34,7 @@ public class ConstellationBean extends Object {
         return this.numberOfStars;
     }
 
-
-    /**
-     *  Sets the mySpecialData attribute of the BeanOne object
-     *
-     *@param  mySpecialData  The new mySpecialData value
-     */
+    //setters
     public void setName(String name) {
         this.name = name;
     }
