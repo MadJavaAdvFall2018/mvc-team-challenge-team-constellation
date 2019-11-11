@@ -32,11 +32,15 @@ public class ViewConstellationServlet extends HttpServlet {
         tardisBean.setName("Tardis");
 
         //create a collection of all the beans
-        List<ConstellationBean> allConstelations = new ArrayList<ConstellationBean>();
-        request.setAttribute("myCoolBean", myBean);
+        List<ConstellationBean> allConstellations = new ArrayList<ConstellationBean>();
 
-        String url = "/beanOneDemo.jsp";
+        //set the attribute of the request to be the list of constellations
+        request.setAttribute("constellations", allConstellations);
 
+        //set the destination url to be the view jsp
+        String url = "/mvchome.jsp";
+
+        //forward the request to the desired url, the request will have an attribute of constellations that can be accessed
         RequestDispatcher dispatcher
                 = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
