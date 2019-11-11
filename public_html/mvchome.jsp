@@ -70,6 +70,9 @@
         <div class="body">
             <div>
                 <h1>OUR PROJECT</h1>
+                <!-- Using expression language to access each constellation bean object and the data that is set within that object-->
+                <!-- constellations[0] access a single bean, .instanceVariable accesses the data for that instance variable of that bean.-->
+                <!-- you do not need to include the "get" for the methods because it is a bean so java knows what to look for.(don't quote me on that discription)-->
                 <!-- expression language here -->
                 ${constellations.get(0).getName()}
                 <img src="images/${constellations[0].imageName}" alt="TARDIS constellation" />

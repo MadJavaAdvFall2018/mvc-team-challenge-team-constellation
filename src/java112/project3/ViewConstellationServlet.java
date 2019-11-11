@@ -7,10 +7,11 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 /**
- * @author Eric Knapp
+ * @author bscholze
  * class MvcDemo
  *
  */
+//this servlet is the controller that people access inorder to view information, it forwards data to the view to be presented.
 @WebServlet(
         name = "constellationServlet",
         urlPatterns = { "/constellations" }
@@ -32,6 +33,7 @@ public class ViewConstellationServlet extends HttpServlet {
         tardisBean.setName("Tardis");
         tardisBean.setImageName("tardisconstellation.png");
         tardisBean.setDiscoveryDate("Oct. 2018");
+        tardisBean.setNumberOfStars(14);
 
         //create a second bean
         ConstellationBean enterpriseBean = new ConstellationBean();
@@ -39,11 +41,12 @@ public class ViewConstellationServlet extends HttpServlet {
         enterpriseBean.setName("Enterprise");
         enterpriseBean.setImageName("enterprise.png");
         enterpriseBean.setDiscoveryDate("Oct. 2018");
+        tardisBean.setNumberOfStars(39);
 
-        //create a collection of all the beans
+        //create a collection to hold all the beans
         List<ConstellationBean> allConstellations = new ArrayList<ConstellationBean>();
 
-        //add the bean to the list
+        //add the beans to the list
         allConstellations.add(tardisBean);
         allConstellations.add(enterpriseBean);
 

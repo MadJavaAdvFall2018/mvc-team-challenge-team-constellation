@@ -14,6 +14,7 @@ public class ConstellationBean extends Object {
     /**
      *  Constructor for the Constellation object
      */
+    //no arguement constructor for the bean
     public ConstellationBean() {
 
     }
