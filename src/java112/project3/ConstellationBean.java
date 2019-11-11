@@ -6,7 +6,7 @@ package java112.project3;
  *@author   bscholze
  */
 public class ConstellationBean extends Object {
-
+    //instance variables for bean
     private  String  name;
     private String imageName;
     private int discoveryDate;
