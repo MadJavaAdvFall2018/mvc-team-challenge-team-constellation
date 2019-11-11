@@ -6,10 +6,10 @@ package java112.project3;
  *@author   bscholze
  */
 public class ConstellationBean extends Object {
-    //instance variables for bean
+    //instance variables for the constellation bean
     private  String  name;
     private String imageName;
-    private int discoveryDate;
+    private String discoveryDate;
     private int numberOfStars;
     /**
      *  Constructor for the Constellation object
@@ -26,7 +26,7 @@ public class ConstellationBean extends Object {
         return this.imageName;
     }
 
-    public int getDiscoveryDate() {
+    public String getDiscoveryDate() {
         return this.discoveryDate;
     }
 
@@ -43,7 +43,7 @@ public class ConstellationBean extends Object {
         this.imageName = imageName;
     }
 
-    public void setDiscoveryDate(int discoveryDate) {
+    public void setDiscoveryDate(String discoveryDate) {
         this.discoveryDate = discoveryDate;
     }
 
