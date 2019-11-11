@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Science Website Template</title>
+    <title>Team Constellation MVC</title>
     <link rel="stylesheet" href="space-science/upload/css/style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="space-sceince/upload/css/mobile.css">
     <script src="js/mobile.js" type="text/javascript"></script>
@@ -13,7 +13,7 @@
 <div id="page">
     <div id="header">
         <div>
-            <a href="index.html" class="logo"><img src="space-sceince/upload/images/logo.png" alt=""></a>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
             <ul id="navigation">
                 <li class="selected">
                     <a href="space-sceince/upload/index.html">Home</a>
@@ -46,23 +46,23 @@
     <div id="body" class="home">
         <div class="header">
             <div>
-                <img src="space-sceince/upload/images/satellite.png" alt="" class="satellite">
-                <h1>SOYUZ TMA-M</h1>
-                <h2>SPACECRAFT</h2>
-                <a href="blog.html" class="more">Read More</a>
-                <h3>FEATURED PROJECTS</h3>
+                <img src="images/satellite.png" alt="" class="satellite">
+                <h1>FERMI GAMMA RAY</h1>
+                <h2>CONSTELLATIONS </h2>
+                <a href="https://fermi.gsfc.nasa.gov/science/constellations/" target="kjh" class="more">Check Out More</a>
+                <h3>FEATURED </h3>
                 <ul>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="space-sceince/upload/images/project-image1.jpg" alt=""></a>
+                        <a href="space-sceince/upload/projects.html"><img src="images/project-image1.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="space-sceince/upload/images/project-image2.jpg" alt=""></a>
+                        <a href="space-sceince/upload/projects.html"><img src="images/project-image2.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="space-sceince/upload/images/project-image3.jpg" alt=""></a>
+                        <a href="space-sceince/upload/projects.html"><img src="images/project-image3.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="space-sceince/upload/images/project-image4.jpg" alt=""></a>
+                        <a href="space-sceince/upload/projects.html"><img src="images/project-image4.jpg" alt=""></a>
                     </li>
                 </ul>
             </div>
@@ -78,19 +78,19 @@
                 <ul>
                     <li>
                         <h1>FEATURED VIDEO</h1>
-                        <a href="space-sceince/upload/blog.html"><img src="space-sceince/upload/images/mars-rover.jpg" alt=""><span></span></a>
+                        <a href="space-sceince/upload/blog.html"><img src="images/mars-rover.jpg" alt=""><span></span></a>
                     </li>
                     <li>
                         <h1>LATEST BLOG</h1>
                         <ul>
                             <li>
-                                <a href="space-sceince/upload/blog.html"><img src="space-sceince/upload/images/finding-planet.jpg" alt=""></a>
+                                <a href="space-sceince/upload/blog.html"><img src="images/finding-planet.jpg" alt=""></a>
                                 <h1>FINDING PLANET X-123</h1>
                                 <span>FEBRUARY 6, 2023</span>
                                 <a href="space-sceince/upload/blog.html" class="more">Read More</a>
                             </li>
                             <li>
-                                <a href="space-sceince/upload/blog.html"><img src="space-sceince/upload/images/new-satellitedish.jpg" alt=""></a>
+                                <a href="space-sceince/upload/blog.html"><img src="images/new-satellitedish.jpg" alt=""></a>
                                 <h1>NEW SATELLITE DISH</h1>
                                 <span>FEBRUARY 3, 2023</span>
                                 <a href="space-sceince/upload/blog.html" class="more">Read More</a>
