@@ -25,7 +25,7 @@
                     <a href="space-sceince/upload/projects.html">Projects</a>
                     <ul class="primary">
                         <li>
-                            <a href="space-sceince/upload/proj1.html">proj 1</a>
+                            <a href="space-sceince/upload/proj1.html">Proj 1</a>
                         </li>
                     </ul>
                 </li>
@@ -70,10 +70,10 @@
         <div class="body">
             <div>
                 <h1>OUR PROJECT</h1>
-                <img src="images/tardisconstellation.png" alt="gamma ray constellation TARDIS" />
+                <!-- expression language here -->
                 <br />
                 <br />
-                <img src="images/enterprise.png" alt="gamma ray constellation USS Enterprise" />
+                <!-- expression language here -->
             </div>
         </div>
         <div class="footer">
