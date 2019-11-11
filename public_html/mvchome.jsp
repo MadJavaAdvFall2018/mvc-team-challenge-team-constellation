@@ -71,9 +71,11 @@
             <div>
                 <h1>OUR PROJECT</h1>
                 <!-- expression language here -->
+                ${constellations.get(0).getName()}
+                <img src="images/${constellations[0].imageName}" alt="TARDIS constellation" />
                 <br />
                 <br />
-                <!-- expression language here -->
+                <!-- put this into a table -->
             </div>
         </div>
         <div class="footer">
