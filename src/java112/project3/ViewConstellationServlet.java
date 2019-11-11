@@ -30,6 +30,7 @@ public class ViewConstellationServlet extends HttpServlet {
         ConstellationBean tardisBean = new ConstellationBean();
         //set the instance variables for the bean
         tardisBean.setName("Tardis");
+        tardisBean.setImageName("tardisconstellation.png");
 
         //create a collection of all the beans
         List<ConstellationBean> allConstellations = new ArrayList<ConstellationBean>();
