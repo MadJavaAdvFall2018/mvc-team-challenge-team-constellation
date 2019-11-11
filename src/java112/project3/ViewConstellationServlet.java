@@ -34,6 +34,9 @@ public class ViewConstellationServlet extends HttpServlet {
         //create a collection of all the beans
         List<ConstellationBean> allConstellations = new ArrayList<ConstellationBean>();
 
+        //add the bean to the list
+        allConstellations.add(tardisBean);
+
         //set the attribute of the request to be the list of constellations
         request.setAttribute("constellations", allConstellations);
 
