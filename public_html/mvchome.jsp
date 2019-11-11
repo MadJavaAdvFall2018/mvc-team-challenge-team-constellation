@@ -25,7 +25,7 @@
                     <a href="space-sceince/upload/projects.html">Projects</a>
                     <ul class="primary">
                         <li>
-                            <a href="space-sceince/upload/proj1.html">proj 1</a>
+                            <a href="space-sceince/upload/proj1.html">Proj 1</a>
                         </li>
                     </ul>
                 </li>
@@ -53,24 +53,27 @@
                 <h3>FEATURED </h3>
                 <ul>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="images/project-image1.jpg" alt=""></a>
+                        <img src="images/project-image1.jpg" alt="">
                     </li>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="images/project-image2.jpg" alt=""></a>
+                        <img src="images/project-image2.jpg" alt="">
                     </li>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="images/project-image3.jpg" alt=""></a>
+                        <img src="images/project-image3.jpg" alt="">
                     </li>
                     <li>
-                        <a href="space-sceince/upload/projects.html"><img src="images/project-image4.jpg" alt=""></a>
+                        <img src="images/project-image4.jpg" alt="">
                     </li>
                 </ul>
             </div>
         </div>
         <div class="body">
             <div>
-                <h1>OUR MISSION</h1>
-                <p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
+                <h1>OUR PROJECT</h1>
+                <!-- expression language here -->
+                <br />
+                <br />
+                <!-- expression language here -->
             </div>
         </div>
         <div class="footer">
