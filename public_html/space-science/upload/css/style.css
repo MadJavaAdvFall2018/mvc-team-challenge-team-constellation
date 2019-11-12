@@ -526,7 +526,7 @@ img {
 }
 #body.about .header div, #body .header div {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 1000px;
 	overflow: hidden;
 	padding: 65px 0 40px;
 }
@@ -1295,6 +1295,17 @@ img {
 #body .header div form input#submit:hover {
 	background-color: #620031;
 }
+
+/*-------------------------------------table styles-------------------------------------------*/
+#body table {
+	width: 100%;
+	color: #FFFFFF;
+}
+
+table img {
+	width: 30em;
+}
+
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
 	margin: 0;
