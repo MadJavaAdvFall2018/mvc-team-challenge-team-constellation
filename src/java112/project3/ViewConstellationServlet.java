@@ -41,7 +41,7 @@ public class ViewConstellationServlet extends HttpServlet {
         enterpriseBean.setName("Enterprise");
         enterpriseBean.setImageName("enterprise.png");
         enterpriseBean.setDiscoveryDate("Oct. 2018");
-        tardisBean.setNumberOfStars(39);
+        enterpriseBean.setNumberOfStars(39);
 
         //create a collection to hold all the beans
         List<ConstellationBean> allConstellations = new ArrayList<ConstellationBean>();
