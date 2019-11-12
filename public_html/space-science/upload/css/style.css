@@ -1296,10 +1296,20 @@ img {
 	background-color: #620031;
 }
 
+/*------------------------------------added styles--------------------------------------------*/
+#authors {
+	text-align: center;
+}
+
 /*-------------------------------------table styles-------------------------------------------*/
 #body table {
 	width: 100%;
 	color: #FFFFFF;
+	border-collapse: collapse;
+}
+
+table th {
+	border-bottom: 2px solid white;
 }
 
 table img {

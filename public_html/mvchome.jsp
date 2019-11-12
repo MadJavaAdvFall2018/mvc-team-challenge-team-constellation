@@ -75,7 +75,7 @@
                 <!-- you do not need to include the "get" for the methods because it is a bean so java knows what to look for.(don't quote me on that discription)-->
                 <!-- expression language here -->
 
-
+                <p id="authors">by Beth, Isabel, and Bhavani</p>
                 <br />
                 <br />
                 <!-- put this into a table -->
